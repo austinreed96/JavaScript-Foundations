@@ -122,6 +122,7 @@ For example, variableInterestRate(200000, 0.04, 30) should console.log:
 
 function variableInterestRate(P, I, N){
 
+    
     periods=N*12;
     let monthlyInterestRate=0;
     let numerator=0;
